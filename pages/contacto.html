@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/240.jpeg" type="image/x-icon">
+    <title>mi tienda de detail</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Adamina&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+    <ol class="encabezado">
+        <li class="email button4">Sheltergarage@gmail.com</li>
+        <li class="register button5">Crear Cuenta</li>
+        <li class="login button6">Iniciar Sesion</li>
+    </ol>
+    <div class="logo">Shelter Garage
+        <form class="d-flex buscador" role="Buscar">
+            <input class="form-control me-2" type="Buscar" placeholder="Buscar" aria-label="Buscar">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+        </form>
+    </div>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="./cuidadoexterior.html" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Cuidado Exterior
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="./cuidadoexterior.html">Abrillantados</a></li>
+                                <li><a class="dropdown-item" href="./cuidadoexterior.html">Lavados Premium</a></li>
+                                <li><a class="dropdown-item" href="./cuidadoexterior.html">Tratamientos</a></li>
+                                <li><a class="dropdown-item" href="./cuidadoexterior.html">Restauracion de Opticas</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="./cuidadointerior.html" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Cuidado Interior
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="./cuidadointerior.html">Retapizado de Volantes</a></li>
+                                <li><a class="dropdown-item" href="./cuidadointerior.html">Limpieza y pintura de tapizados</a></li>
+                                <li><a class="dropdown-item" href="./cuidadointerior.html">Detallado de Motor</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="./productos.html" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Productos
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="./productos.html">Productos Destacados</a></li>
+                                <li><a class="dropdown-item" href="./productos.html">Ofertas</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="./otrosservicios.html" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Otros Servicios
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="./otrosservicios.html">PPF (Paint Protection Film) </a></li>
+                                <li><a class="dropdown-item" href="./otrosservicios.html">Polarizados</a></li>
+                                <li><a class="dropdown-item" href="./otrosservicios.html">Restauracion de llantas</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        </header>
+        <main>
+            <section id="datosdecontacto">
+                <h2>Formulario de Contacto</h2>
+                <form action="" method="post" enctype="text/plain">
+                    <fieldset>
+                        <label for="nombreapellido">Nombre y apellido</label>
+                        <input type="text" id="nombreapellido" name="nombreapellido" placeholder="Nombre y Apellido"
+                            required>
+                    </fieldset>
+                    <fieldset>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder=Email>
+                    </fieldset>
+                    <fieldset><label for="mensajeusuario">Mensaje</label>
+                        <textarea name="Dejanos tu mensaje" id="mensajeusuario" cols="30" rows="1"
+                            placeholder="Mensaje"></textarea>
+                    </fieldset>
+                    <button class="enviar button7">Enviar</button>
+                    <button class="borrar button8">Borrar</button>
+                    <fieldset class="dondeestamos">
+                        <h2>Donde Estamos</h2>
+                        <p>Nuestro taller esta ubicado en Av. Recta Martinolli 8622, Córdoba Capital <br>
+                        +54 351 7736292 <br></p>
+                        <iframe class="mapa"
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13629.860187305545!2d-64.2827002!3d-31.3461438!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94329dcb77a01f95%3A0x4568aaaddfb70286!2sLa%20Mamma%20Restaurante!5e0!3m2!1ses-419!2sar!4v1694133924269!5m2!1ses-419!2sar"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </fieldset>
+                </form>
+            </section>
+        </main>
+        <footer id="nuestrasredes">
+            <div class="container">
+                <h2>Nuestras Redes Sociales</h2>
+                <div>
+                    <a class="redes" href="https://www.facebook.com/"><img src="" alt=""></a>
+                    <a class="redes" href="https://www.instagram.com/sheltergaragecba/"><img src="" alt=""></a>
+                    <a class="redes" href="https://www.tiktok.com/explore"><img src=""></a>
+                    <a class="redes" href="https://www.youtube.com/"><img src=""></a>
+                </div>
+                <p>&copy;Shlter Garage</p>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
