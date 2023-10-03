@@ -277,15 +277,18 @@ button:hover{
 
 .redes{
     padding: 30px;
-    margin: 50px;
-    height: 90vh;
+    padding-top: 10px;
+    margin-left: 100px;
+    margin-right: 50px;
     border-radius: 15px;
     justify-content: center center;
     background-size: 100%;
     background-repeat: no-repeat;
-    background-position: center;
-    padding: 30px 30px 40px 50px;;
 
+}
+
+.copyright{
+    margin-top: 40px;
 }
 
 .redes:first-child{
