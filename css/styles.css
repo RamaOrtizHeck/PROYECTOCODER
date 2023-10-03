@@ -5,7 +5,7 @@
 html{font-size: 62,5%;
 }
 
-h2{color: rgb(194, 2, 2);
+h2{color: rgb(163, 6, 6);
     background-color: black;
     font-size: 35px;
     font-family: "adamina", sans-serif;
@@ -21,6 +21,7 @@ h4{
     color: white;
     font-size: 35px;
 }
+
 
 
 .logo{
@@ -144,8 +145,6 @@ ol{
     background-color: rgb(230, 229, 212);
     background-size: 100px;
     list-style-type: none;
-    /* border: solid 0.1rem black; */
-    /* border-radius: 10px; */
     padding-bottom:1px;
     margin-top: -9px;
 }
@@ -269,11 +268,6 @@ button:hover{
 
 }
 
-#nuestrasredes .container{
-    margin-top: 10px;
-    margin-bottom: 20px;
-
-}
 
 .redes{
     padding: 30px;
@@ -396,78 +390,6 @@ fieldset{
 /* servicios exterior */
 iframe{width: 433px;}
 
-/* #nuestros-servicios-exterior .serviciosexterior {
-    display:inline-block;
-    justify-content: center;
-    padding: 50px;
-    margin-top: -50px;
-} 
-
-    .abrillantados{
-    padding: 100px;
-    background-position: center center;
-    background-size: cover;
-    margin: 20px;
-    border-radius: 15px;
-    align-items: center;  
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    )
-    ,url("../img/240.jpeg");
-}
-
-
-.lavados{
-    padding: 100px;
-    background-position: center center;
-    background-size: cover;
-    margin: 20px;
-    border-radius: 15px;
-    
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    )
-    ,url("../img/s3.jpeg");
-
-}
-
-.tratamientos{
-    padding: 100px;
-    background-position: center center;
-    background-size: cover;
-    margin: 20px;
-    border-radius: 15px;
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    )
-    ,url("../img/RAPTOR.jpeg");
-
-}
-
-.opticas{
-    padding: 100px;
-    background-position: center center;
-    background-size: cover;
-    margin: 20px;
-    border-radius: 15px;
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    )
-    ,url("../img/opticas.jpg");
-
-} */
-
 /* otros servicios  */
 .serviciosvarios{
     display:inline-flex;
@@ -482,17 +404,17 @@ iframe{width: 433px;}
     margin: -50px;
     color: white;
     padding-top: 50px;
+}
 
-
+.card-title{
+    color: rgb(163, 6, 6);
+    font-weight: bolder;
 }
 
 .h4varios{
     margin-top: -80px;
 }
 
-.ppf{
-    width: 1000px;
-}
 
 /* cuidado interior */
 
