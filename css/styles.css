@@ -103,6 +103,7 @@ ol{
     flex-flow: row;
     align-items: top;
     justify-content: space-between;
+    
 }
 
 .email{
@@ -177,9 +178,9 @@ ol{
 
 #nuestros-servicios .servicios {
     display:flex;
+    flex-flow: row;
+    padding: 10px;
     justify-content: center;
-    padding: 50px;
-    margin-top: -50px;
 
 }
 
@@ -466,3 +467,34 @@ iframe{width: 433px;}
 }
 
 /* productos */
+
+
+/* media queries */
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    flex-direction: column;
+    height: 90vh;
+    background-image:url("../img/m3\ y\ s3.jpeg");
+    margin-top: -50px;
+}
+
+/* productos */
+@media (max-width:600px){
+    .encabezado{
+        flex-direction: row ;
+        justify-content: center;
+    }
+    .logo{
+        display: flex;
+        flex-direction: column ;
+        justify-content: center;
+        height: 90px;
+    }
+
+}
